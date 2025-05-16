@@ -1,4 +1,4 @@
-package fwcboard;
+package ru.smartidea;
 
 public class Match {
     private final String homeTeam;

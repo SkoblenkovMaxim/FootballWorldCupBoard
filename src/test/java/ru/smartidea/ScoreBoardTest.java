@@ -1,4 +1,4 @@
-package fwcboard;
+package ru.smartidea;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

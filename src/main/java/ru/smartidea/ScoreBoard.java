@@ -1,4 +1,4 @@
-package fwcboard;
+package ru.smartidea;
 
 import java.util.*;
 
