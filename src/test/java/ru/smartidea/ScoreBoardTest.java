@@ -65,10 +65,10 @@ class ScoreBoardTest {
 
         List<Match> matches = scoreBoard.getMatches();
         assertEquals(5, matches.size());
-        assertEquals("Мексика 0 - 5 Канада", matches.get(0).toString());
+        assertEquals("Уругвай 6 - 6 Италия", matches.get(0).toString());
         assertEquals("Испания 10 - 2 Бразилия", matches.get(1).toString());
-        assertEquals("Германия 2 - 2 Франция", matches.get(2).toString());
-        assertEquals("Уругвай 6 - 6 Италия", matches.get(3).toString());
-        assertEquals("Аргентина 3 - 1 Австралия", matches.get(4).toString());
+        assertEquals("Мексика 0 - 5 Канада", matches.get(2).toString());
+        assertEquals("Аргентина 3 - 1 Австралия", matches.get(3).toString());
+        assertEquals("Германия 2 - 2 Франция", matches.get(4).toString());
     }
 }

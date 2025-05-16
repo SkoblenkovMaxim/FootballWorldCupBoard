@@ -59,7 +59,13 @@ public class ScoreBoard {
             if (scoreDiff != 0) {
                 return scoreDiff;
             }
-            return m1.getHomeTeam().compareTo(m2.getHomeTeam());
+
+            Collection<Match> values = matches.values();
+            int idx1 = new ArrayList<>(values).indexOf(m1);
+            int idx2 = new ArrayList<>(values).indexOf(m2);
+            return Integer.compare(idx2, idx1);
+
+            //return m1.getHomeTeam().compareTo(m2.getHomeTeam());
         });
 
         return sortedMatches;
